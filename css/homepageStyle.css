@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  body{
+      background-color: rgb(243, 236, 236);
+  }
+
+  .form-container{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .form-container h3{
+      font-size: 25px;
+  }
+
+  .login-btn{
+      margin-top: 5px;
+      font-size: 20px;
+      border-radius: 5px;
+      padding: 2px 5px;
+      justify-self: right;
+  }
+
+  .form-input{
+      font-size: 20px;
+      border-radius: 5px;
+      padding-left: 5px;
+  }
+
+  .input-select{
+      margin-top: 10px;
+  }
+
+  .my-header{
+      background-color: rgb(96, 96, 209);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 40px;
+      border-bottom: 5px white solid;
+  }
+
+  .logo{
+      margin: .5% .5%;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      line-height: 60px;
+  }
+
+  .initials{
+      margin: .5% 1%;
+      font-size: 26px;
+      border-radius: 10px;
+      color: white;
+  }
+
+  .intro-text{
+    width: 50%;
+    margin: auto;
+    margin: 3% auto 3% auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    white-space: nowrap;
+    font-family: 'Itim', cursive;
+  }
+
+  .intro-img{
+      background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: transparent;
+      width: 40%;
+      height: 300px;
+  }
+
+  .big-wrap{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+
+  .intro-text p{
+      text-align: center;
+  }
+
+  footer{
+    background-color: rgb(96, 96, 209);
+    color: white;
+    margin-bottom: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+
+  .footer ul li{
+      margin: 5px 0px;
+  }
+
+  .copyright {
+    border-top: 2px white solid;
+    padding:10px;
+    text-align: center; 
+ }

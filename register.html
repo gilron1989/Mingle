@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/registerStyle.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <header class = "my-header">
+        <div class = "logo">
+            <h3 class = logo-name>Mingle</h3>
+        </div>
+    </header>
+
+    <main>
+        <h1>Register Form</h1>
+        <form method="POST" class="register-form" action="register.php">
+            <label for="id"><b>EMAIL*</b></label>
+            <input type="email" placeholder="Enter EMAIL Address " name="email" id="email">
+            <label for="fname"><b>First Name*</b></label>
+            <input type="text" placeholder="Enter First Name " name="fname" id="fname">
+            <label for="lname"><b>Last Name*</b></label>
+            <input type="text" placeholder="Enter Last Name " name="lname" id="lname">
+            <label for="psw"><b>Password*</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw">
+            <button type="button" onclick="register()" name="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>            
+            <ul>
+                <li>Branches</li>
+                <li>Address</li>
+                <li>Careers</li>
+            </ul>            
+            <ul>
+                <li>Support</li>
+                <li>FAQ</li>
+                <li>Help Docs</li>
+            </ul>
+        </div>
+    <div class="copyright"><b>©  2021  Copyright: G T A <b></div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

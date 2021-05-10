@@ -1,0 +1,11 @@
+[07-May-2021 04:09:01 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/talsy/public_html/Hackton/database.php on line 12
+[07-May-2021 04:09:32 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'talsy'@'localhost' (using password: YES) in /home/talsy/public_html/Hackton/database.php on line 12
+[07-May-2021 04:09:34 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'talsy'@'localhost' (using password: YES) in /home/talsy/public_html/Hackton/database.php on line 12
+[07-May-2021 04:15:09 UTC] PHP Fatal error:  Call to undefined function isempty() in /home/talsy/public_html/Hackton/mingleSelect.php on line 68
+[07-May-2021 04:15:12 UTC] PHP Fatal error:  Call to undefined function isempty() in /home/talsy/public_html/Hackton/mingleSelect.php on line 68
+[07-May-2021 04:15:43 UTC] PHP Fatal error:  Call to undefined function isempty() in /home/talsy/public_html/Hackton/mingleSelect.php on line 68
+[07-May-2021 04:17:16 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/talsy/public_html/Hackton/mingleSelect.php on line 74
+[07-May-2021 04:18:34 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/talsy/public_html/Hackton/mingleSelect.php on line 69
+[07-May-2021 05:00:07 UTC] PHP Parse error:  syntax error, unexpected 'url' (T_STRING) in /home/talsy/public_html/Hackton/mingleSelect.php on line 80
+[07-May-2021 05:00:31 UTC] PHP Parse error:  syntax error, unexpected '')' (T_CONSTANT_ENCAPSED_STRING) in /home/talsy/public_html/Hackton/mingleSelect.php on line 82
+[07-May-2021 05:00:49 UTC] PHP Parse error:  syntax error, unexpected 'url' (T_STRING) in /home/talsy/public_html/Hackton/mingleSelect.php on line 80

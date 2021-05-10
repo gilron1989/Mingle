@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  body{
+      background-color: rgb(243, 236, 236);
+  }
+
+  .my-header{
+    background-color: rgb(96, 96, 209);
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    border-bottom: 5px white solid;
+    line-height: 60px;
+}
+
+.logo{
+    margin: .5% .5%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.initials{
+    display: flex;
+    flex-direction: row;
+    margin: .5% 1%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.initials button{
+    border-radius: 10px;
+    color: white;
+    align-self: center;
+    padding: 3px;
+    margin-left: 8px;
+}
+
+.initials button a{
+    text-decoration: none;
+}
+
+.intro-text{
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+    font-family: 'Itim', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.my-grid {
+    width: 96%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .grid-item {
+    position: relative;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgb(17, 17, 17);
+    transition: 1s;
+    border: 2px solid rgb(97, 94, 94);
+  }
+
+  .grid-item h3{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      opacity: 0;
+      transition: .7s;
+      color: white;
+      font-size: 40px;
+      white-space: nowrap;
+      z-index: 3;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .on-indicator{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 103%;
+      color: green;
+      font-weight: bold;
+      font-family: 'Itim', cursive;
+      font-size: 18px;
+  }
+  
+    .lock-indicator{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 103%;
+      color: Red;
+      font-weight: bold;
+      font-family: 'Itim', cursive;
+      font-size: 18px;
+  }
+
+  .off-indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 103%;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+}
+
+  .grid-item:hover h3{
+      opacity: 1;
+  }
+
+  .black-background{
+      width: 100%;
+      height: 200px;
+      background-color: black;
+      z-index: 2;
+      opacity: 0;
+      transition: .5s;
+  }
+
+  .grid-item:hover .black-background{
+      opacity: .6;
+}
+
+footer{
+    background-color: rgb(96, 96, 209);
+    color: white;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer ul li{
+      margin: 5px 0px;
+  }
+
+  .copyright {
+      border-top: 2px white solid;
+    padding:10px;
+    text-align: center; 
+ }
+
+ .admin-btn{
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     bottom: 5%;
+     border-radius: 10px;
+     padding: 3.5px;
+ }

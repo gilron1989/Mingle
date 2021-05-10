@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  body{
+      background-color: rgb(243, 236, 236);
+  }
+
+  .my-header{
+    background-color: rgb(96, 96, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 5px white solid;
+    margin-bottom: 30px;
+}
+
+.logo{
+    margin: .5% .5%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.register-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    display: inline;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+b{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+button{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(96, 96, 209);
+    color: white;
+    margin-bottom: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+
+  .footer ul li{
+      margin: 5px 0px;
+  }
+
+  .copyright {
+    border-top: 2px white solid;
+    padding:10px;
+    text-align: center; 
+ }
